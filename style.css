@@ -1,0 +1,82 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+ul,
+ol {
+  list-style: none;
+}
+a,
+button {
+  text-decoration: none;
+}
+clearfix::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+body {
+  background: #0a0a0c;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #c9aa71;
+}
+.introduce {
+  width: 980px;
+  margin: 20px auto;
+}
+.line {
+  margin: 5px auto;
+  position: relative;
+}
+.line hr {
+  position: absolute;
+  left: 50%;
+  margin-left: -512px;
+  width: 1024px;
+  background: #c9aa71;
+  border: 1px solid #c9aa71;
+}
+.slide {
+  display: flex;
+  transition: all 2s;
+}
+
+.content {
+  width: 980px;
+  height: 500px;
+  overflow: hidden;
+  margin-top: 40px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.outside {
+  width: 980px;
+  background: #c9aa71;
+  margin-bottom: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.nav {
+  text-align: center;
+}
+button {
+  margin: 0 20px;
+  cursor: pointer;
+  position: relative;
+}
+button .triangle {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-top: 15px solid gold;
+  border-right: 15px solid transparent;
+  content: "";
+  display: none;
+}
+button .triangle.active {
+  display: block;
+}
+.report {
+  width: 980px;
+  margin: 40px auto;
+}
