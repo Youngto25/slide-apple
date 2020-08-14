@@ -24,6 +24,7 @@ body {
   width: 980px;
   margin: 20px auto;
 }
+
 .line {
   margin: 5px auto;
   position: relative;
@@ -39,6 +40,9 @@ body {
 .slide {
   display: flex;
   transition: all 2s;
+}
+.slide img {
+  object-fit: cover;
 }
 
 .content {
@@ -79,4 +83,8 @@ button .triangle.active {
 .report {
   width: 980px;
   margin: 40px auto;
+}
+.introduce,
+.report p {
+  text-indent: 2em;
 }
